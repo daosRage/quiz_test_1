@@ -9,14 +9,14 @@ let questions = {
     1: {
         question: "111111111 111111111 1111111?",
         right_ans: "111111",
-        wrong_ans1: "1111110",
+        wrong_ans1: "110",
         wrong_ans2: "1111111",
         wrong_ans3: "1111112",
     },
     2: {
         question: "222222222222 22222222 22222222?",
         right_ans: "222222",
-        wrong_ans1: "22222220",
+        wrong_ans1: "222220",
         wrong_ans2: "22222221",
         wrong_ans3: "22222223",
     },
