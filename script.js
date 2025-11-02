@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-
 let button_start = document.querySelector(".button_start")
 let quiz_container = document.querySelector(".quiz")
 let question = document.querySelector(".question")
@@ -30,7 +29,6 @@ let questions = {
     },
 }
 
-
 button_start.addEventListener("click", function(){
     button_start.style.display = "none"
     quiz_container.style.display = "flex"
@@ -48,7 +46,7 @@ class Question{
             answers[i].innerHTML = this.answers[i]
         }
     }
-}
+} 
 let number_question = 1
 let question_list = []
 question_list.push(new Question(number_question))
@@ -61,5 +59,4 @@ for (let i = 0; i < answers.length; i += 1){
         question_list[number_question -1].display()
     })
 }
-
 })
